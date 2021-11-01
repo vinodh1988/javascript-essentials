@@ -11,6 +11,8 @@ console.log(typeof(b))
 console.log(typeof(true))
 console.log(typeof({sno:1,name:"Rajan"}))
 console.log(typeof(c))
+
+
 // window is the global object in the Browser
 // global is the global object in node js
 
