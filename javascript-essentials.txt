@@ -1,0 +1,41 @@
+w3c Standardizes web
+
+HTML, CSS
+
+Javascript - ECMA
+
+------------------------------------------------------
+
+Browser     -
+---------
+		Javascript running on browser not allowed to 
+		run or manipulate anything outside browser
+		
+		* You can access browser features and 
+		the current document that is running on
+		the browser
+		
+		* you cannot send a mail using mail server
+		* you cannot connect with databases
+		* you cannot create files
+		* you cannot operate on os processes
+		* you cannot manipulate and connect with applications
+		* you cannot handle most network related functionalites
+		
+	Hence Javascript was confined only to browser
+
+But With Node Js, We got an alternate platform to 
+run javascript
+
+This made Javascript to be used as backend language 
+as well
+
+Node JS Can run javascript, it cannot access browser
+features
+
+* it can access filesystem
+* can handle os and process 
+* can handle various network protocals
+* can  connect almost all kinds of dbs
+* can communicate with mail servers and other softwares
+
