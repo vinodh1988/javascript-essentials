@@ -37,4 +37,11 @@ console.log("--------------------until phase 3-------------------")
 for(let x in c)
    console.log(x,'  ',c[x])
 
-   
+console.log("-------------Spread operator ---------------------")
+d={...a,projects:["Erp solution"]}
+
+console.log(d)
+console.log(a)
+d.experience=10
+console.log(d)
+console.log(a)
