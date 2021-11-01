@@ -1,4 +1,4 @@
-a=[3,53,534,2534,57]
+a=[3,53,534,2534,57,[45,645,645,6645]]
 //b=a
 b=[...a]
 console.log(a)
@@ -13,3 +13,4 @@ for(let x in b)
  console.log(x)
 
  console.log(a)
+ console.log(a[5][3])
