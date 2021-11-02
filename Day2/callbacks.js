@@ -14,7 +14,7 @@ function multi_phase_fun(phase1input,phase2input,finishinput,callback){
 }
 
 function caller(){
-    multi_phase_fun('task1','task2','wrapping task',function(output){
+    multi_phase_fun('task1','task2','wrapping task',(output)=>{
         console.log("caller is processing ",output)
     })
 }
