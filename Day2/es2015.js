@@ -1,5 +1,5 @@
 class Person {
-sno=1;
+sno=1
 name="Rajan"
     constructor(sno,name){
         if(sno && name){
@@ -11,6 +11,8 @@ name="Rajan"
     display(){
         console.log(this.sno,this.name)
     }
+
+ 
 }
 
 obj1=new Person(12,"Rahul")
