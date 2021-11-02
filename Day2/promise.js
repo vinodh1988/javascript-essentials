@@ -9,13 +9,32 @@ function IDontHaveItNow(){
     });
   
 }
-
+/*
+function callPromise(){
 caller=IDontHaveItNow();
 
 caller.then(
-    (result)=> console.log(result),
+    (result)=> {
+        console.log(result)
+        console.log("related logic")
+    },
     (error)=> console.log(error)
 )
+
+}*/
+
+async function callPromise(){
+try{
+    caller=await IDontHaveItNow();
+    console.log(caller)
+    console.log("Related logic")
+  }
+catch(e){
+    console.log(e)
+}
+}
+
+callPromise();
 
 //console.log(caller)
 
