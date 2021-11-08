@@ -1,0 +1,34 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Rakesh",
+      "city": "Chennai"
+    },
+    {
+      "id": 2,
+      "name": "Harish",
+      "city": "Chennai"
+    },
+    {
+      "id": 3,
+      "name": "Chetan",
+      "city": "Mumbai"
+    },
+    {
+      "id": 4,
+      "name": "Kevin",
+      "city": "Jaipur"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Marketing"
+    },
+    {
+      "id": 2,
+      "name": "Production"
+    }
+  ]
+}
