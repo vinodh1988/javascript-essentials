@@ -1,0 +1,23 @@
+
+Node Js
+
+    It is a platform to Run Javascript
+	
+	Node  -  Node Run time
+	
+	Npm - Node Package manager
+	
+	
+Anything which you build/develop using node is called node package
+
+To manage your node app/service  we will use node package manager (npm)
+
+NPM -
+
+   We can download dependencies[libraries needed for your project]
+   We can download utilities[compiler/transpiler/code generator/ Test
+   case runner]
+   We can publish our projects in public/private repositories
+   We can build/run/test our node applications
+   We can Run Some development related tasks [testing/linting/build scripts/
+   packaging]
